@@ -105,7 +105,7 @@ if value:
 
  Usage: The "Usage" section offers a practical example of how to import and utilize the st_duino function within a Streamlit application, providing a clear and concise guide for integration. 
 
- Example: An illustrative example is provided, showcasing how to access data returned by st_duino and handle various file types (images, text, PDFs), making the component more accessible and comprehensible. 
+ Example: An illustrative example is provided, showcasing how to access data returned by st_duino and handle various file types (images, text, PDFs, Videos, Audio, etc..), making the component more accessible and comprehensible. 
 
  Contributions: The "Contributions" section encourages community involvement by welcoming contributions, fostering a collaborative environment and promoting the development of the project. 
 
