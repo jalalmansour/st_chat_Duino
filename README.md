@@ -9,10 +9,10 @@ pip install streamlit-Duino
 ```
 ## Use code with caution.
 
-Markdown
+
 
 ##Usage instructions
-#import the libraries
+# import the libraries
 ```sh
 import streamlit as st
 from st_duino import st_duino
@@ -60,10 +60,13 @@ def main():
 
 if __name__ == "__main__":
     main()
-Use code with caution.
+
+```
+##Use code with caution.
 Python
 Example
 Here's an example of how to use the st_duino component:
+```sh
 import streamlit as st
 from st_duino import st_duino
 
@@ -83,7 +86,7 @@ if value:
             st.write(f"- {file['name']}")
             # ... Handle file content (display images, text, etc.) ...
 
-
+```
 Use code with caution.
 Python
 Contributions
