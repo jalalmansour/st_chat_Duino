@@ -7,11 +7,10 @@ Streamline your workflow with our intuitive chat bar that fosters seamless commu
 ```sh
 pip install streamlit-Duino
 ```
-## Use code with caution.
 
 
 
-##Usage instructions
+## Usage instructions
 # import the libraries
 ```sh
 import streamlit as st
@@ -62,7 +61,7 @@ if __name__ == "__main__":
     main()
 
 ```
-##Use code with caution.
+## Use code with caution.
 Python
 Example
 Here's an example of how to use the st_duino component:
@@ -98,7 +97,7 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 
 
-
+```sh
 Explanation:
 This README file provides essential information for users of the streamlit-Duino component, guiding them through installation, usage, and contribution. Here's a breakdown of the key sections:
 
