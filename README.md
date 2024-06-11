@@ -4,15 +4,16 @@ Streamline your workflow with our intuitive chat bar that fosters seamless commu
 
 ## Installation instructions 
 
-
-pip install streamlit-Duino
-## Use code with caution.
 ```sh
+pip install streamlit-Duino
+```
+## Use code with caution.
+
 Markdown
 
 ##Usage instructions
 #import the libraries
-
+```sh
 import streamlit as st
 from st_duino import st_duino
 
