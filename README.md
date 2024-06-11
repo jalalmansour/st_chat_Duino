@@ -99,17 +99,17 @@ if value:
 
 
 # Explanation:
-#This README file provides essential information for users of the streamlit-Duino component, guiding them through installation, usage, and contribution. Here's a breakdown of the key sections:#
+ This README file provides essential information for users of the streamlit-Duino component, guiding them through installation, usage, and contribution. Here's a breakdown of the key sections: 
 
-# Installation: This section clearly outlines the installation process using the pip install command, making it effortless for users to get started. #
+  Installation: This section clearly outlines the installation process using the pip install command, making it effortless for users to get started. #
 
-# Usage: The "Usage" section offers a practical example of how to import and utilize the st_duino function within a Streamlit application, providing a clear and concise guide for integration. #
+ Usage: The "Usage" section offers a practical example of how to import and utilize the st_duino function within a Streamlit application, providing a clear and concise guide for integration. 
 
-# Example: An illustrative example is provided, showcasing how to access data returned by st_duino and handle various file types (images, text, PDFs), making the component more accessible and comprehensible. #
+ Example: An illustrative example is provided, showcasing how to access data returned by st_duino and handle various file types (images, text, PDFs), making the component more accessible and comprehensible. 
 
-# Contributions: The "Contributions" section encourages community involvement by welcoming contributions, fostering a collaborative environment and promoting the development of the project. #
+ Contributions: The "Contributions" section encourages community involvement by welcoming contributions, fostering a collaborative environment and promoting the development of the project. 
 
-## Frontend Code: This section clearly indicates the location of the frontend code and highlights its purpose, providing transparency about the project's structure and the role of the JavaScript code. ##
+     Frontend Code: This section clearly indicates the location of the frontend code and highlights its purpose, providing transparency about the project's structure and the role of the JavaScript code. 
 ```
 License: The "License" section specifies the license under which the project is released, ensuring users understand the terms of use and the rights associated with the component.
 
