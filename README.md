@@ -109,7 +109,7 @@ if value:
 
 # Contributions: The "Contributions" section encourages community involvement by welcoming contributions, fostering a collaborative environment and promoting the development of the project. #
 
-# Frontend Code: This section clearly indicates the location of the frontend code and highlights its purpose, providing transparency about the project's structure and the role of the JavaScript code. #
+## Frontend Code: This section clearly indicates the location of the frontend code and highlights its purpose, providing transparency about the project's structure and the role of the JavaScript code. ##
 ```
 License: The "License" section specifies the license under which the project is released, ensuring users understand the terms of use and the rights associated with the component.
 
