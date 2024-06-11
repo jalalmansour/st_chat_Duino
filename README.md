@@ -6,12 +6,14 @@ Streamline your workflow with our intuitive chat bar that fosters seamless commu
 
 ```sh
 pip install streamlit-Duino
-Use code with caution.
+## Use code with caution.
+```sh
 Markdown
 
-Usage instructions
-import streamlit as st
+##Usage instructions
+#import the libraries
 
+import streamlit as st
 from st_duino import st_duino
 
 def main():
