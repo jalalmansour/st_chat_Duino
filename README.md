@@ -93,24 +93,24 @@ if value:
 #### Frontend Code
 #### The frontend code for the st_duino component is located in the frontend directory. The JavaScript code handles file upload, preview, icon display, and base64 encoding of file contents.
 ### License
-######## This project is licensed under the MIT License. See the LICENSE file for more information.
+#### This project is licensed under the MIT License. See the LICENSE file for more information.
 
 
 
-```sh
-Explanation:
-This README file provides essential information for users of the streamlit-Duino component, guiding them through installation, usage, and contribution. Here's a breakdown of the key sections:
 
-Installation: This section clearly outlines the installation process using the pip install command, making it effortless for users to get started.
+# Explanation:
+#This README file provides essential information for users of the streamlit-Duino component, guiding them through installation, usage, and contribution. Here's a breakdown of the key sections:#
 
-Usage: The "Usage" section offers a practical example of how to import and utilize the st_duino function within a Streamlit application, providing a clear and concise guide for integration.
+# Installation: This section clearly outlines the installation process using the pip install command, making it effortless for users to get started. #
 
-Example: An illustrative example is provided, showcasing how to access data returned by st_duino and handle various file types (images, text, PDFs), making the component more accessible and comprehensible.
+# Usage: The "Usage" section offers a practical example of how to import and utilize the st_duino function within a Streamlit application, providing a clear and concise guide for integration. #
 
-Contributions: The "Contributions" section encourages community involvement by welcoming contributions, fostering a collaborative environment and promoting the development of the project.
+# Example: An illustrative example is provided, showcasing how to access data returned by st_duino and handle various file types (images, text, PDFs), making the component more accessible and comprehensible. #
 
-Frontend Code: This section clearly indicates the location of the frontend code and highlights its purpose, providing transparency about the project's structure and the role of the JavaScript code.
+# Contributions: The "Contributions" section encourages community involvement by welcoming contributions, fostering a collaborative environment and promoting the development of the project. #
 
+# Frontend Code: This section clearly indicates the location of the frontend code and highlights its purpose, providing transparency about the project's structure and the role of the JavaScript code. #
+```
 License: The "License" section specifies the license under which the project is released, ensuring users understand the terms of use and the rights associated with the component.
 
 Important Notes:
