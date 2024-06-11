@@ -4,7 +4,7 @@ Streamline your workflow with our intuitive chat bar that fosters seamless commu
 
 ## Installation instructions 
 
-```sh
+
 pip install streamlit-Duino
 ## Use code with caution.
 ```sh
