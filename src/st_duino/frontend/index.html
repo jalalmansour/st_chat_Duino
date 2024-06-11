@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>streamlit-Duino</title>
+  <script src="./streamlit-component-lib.js"></script>
+  <script src="./main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- <body style="background-color: transparent !important;"> -->
+<body  class="overflow-hidden">  
+
+  <main class="flex flex-col min-h-screen">
+    <div class="flex-grow overflow-y-auto"> 
+      <!-- Your main content here -->
+      <div class="relative flex-grow w-full md:w-auto">
+        <div id="show-more-container" style="display: none;">
+          <!-- <button id="show-more-button" class="bg-zinc-300 dark:bg-zinc-700 border-0 p-2 rounded-lg cursor-pointer ml-2">Show More Files</button> -->
+        </div>
+      </div>
+      <div class="w-full h-auto flex flex-wrap" id="file-icons"></div>
+    </div>
+    <footer class="fixed bottom-0 left-0 w-full h-auto  bg-transparent p-0.1 text-white flex items-center justify-between flex-wrap">
+      <!-- Your footer content here -->
+      <div id="uploaded-files" class="file-previews flex flex-wrap p-2 mb-1"></div>
+      <textarea id="prompt-input" class="bg-zinc-500 dark:bg-zinc-800 border-0  p-0.5 pl-16 pr-16 rounded-lg text-black dark:text-white w-full min-w-[200px] max-w-[800vw] min-h-[4vh] max-h-[286px] overflow-auto mb-0.5 ml-1 mr-1 resize-none mt-1" placeholder="Enter a prompt here"></textarea>
+      <button class="absolute left-2 bottom-0 mb-3 ml-0.5 mr-1" onclick="document.getElementById('file-upload').click();">
+        <img src="https://img.icons8.com/?size=100&id=TNTpW1UDsN87&format=png&color=000000" alt="Upload" class="w-8 h-8">
+      </button>
+      <button id="submit-button" class="bg-zinc-300 dark:bg-zinc-600 border-0 p-2 rounded-lg cursor-pointer absolute right-2 bottom-0 mb-2 ml-1 mr-1">
+        <img src="https://img.icons8.com/?size=100&id=86032&format=png&color=000000" alt="Send" class="w-6 h-6">
+      </button>
+    </footer>
+    <input type="file" id="file-upload" class="hidden" multiple accept=".txt,.rtf,.doc,.docx,.pdf,.odt,.md,.html,.htm,.xml,.csv,.tsv,.json,.yaml,.ini,.cfg,.xls,.xlsx,.ods,.ppt,.pptx,.odp,.py,.java,.js,.cpp,.hpp,.c,.php,.go,.swift,.rb,.cs,.ts,.sql,.html,.htm,.css,.jpg,.jpeg,.png,.gif,.bmp,.tiff,.webp,.svg,.eps,.ai,.ico,.psd,.raw,.cr2,.nef,.orf,.arw,.dng,.heic,.ind,.jxr,.jp2,.jpm,.jpf,.pbm,.pgm,.ppm,.yuv,.mp4,.avi,.mov,.wmv,.flv,.mkv,.webm,.h264,.h265,.gifv,.wav,.mp3,.ogg,.flac,.aac,.m4a,.aiff,.wma" onchange="previewFiles(event)">
+  </main>
+</body>
+</html>
+<style>
+    /* Stick content to bottom */
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      flex-shrink: 0;
+    }
+	
+	
+	#prompt-input::-webkit-scrollbar {
+  width: 10px;
+}
+
+#prompt-input::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+#prompt-input::-webkit-scrollbar-thumb {
+  background: #AE3161; /* Purple color */
+  border-radius: 10px;
+}
+
+
+
+
+.file-previews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Adjust the spacing between file previews */
+    padding: 0.5rem; /* Reduced padding */
+    margin-bottom: 0.5rem; /* Minimal bottom margin */
+}
+
+#prompt-input {
+    margin-top: 0.5rem; /* Minimal top margin to bring it closer to the file previews */
+}
+
+.file-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.file-preview img {
+    margin-bottom: 0.25rem;
+}
+
+.file-preview span {
+    margin-bottom: 0.25rem;
+}
+
+
+
+
+  </style> 
