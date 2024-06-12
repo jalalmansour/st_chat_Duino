@@ -17,7 +17,7 @@ import streamlit as st
 from st_duino import st_duino
 ```
 
-```
+```sh
 def main():
     st.write("## Example")
     value = st_duino()
