@@ -1,4 +1,4 @@
-# streamlit-Duino
+# Streamlit-Duino
 
 Streamline your workflow with our intuitive chat bar that fosters seamless communication and effortless file importing, empowering you to collaborate like never before and take your user experience to the next level.
 
