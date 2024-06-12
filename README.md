@@ -89,13 +89,13 @@ if value:
 
 ```
 
-#### Python
+## Python
 #### Contributions
-#### Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+* Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 #### Frontend Code
-#### The frontend code for the st_duino component is located in the frontend directory. The JavaScript code handles file upload, preview, icon display, and base64 encoding of file contents.
+* The frontend code for the st_duino component is located in the frontend directory. The JavaScript code handles file upload, preview, icon display, and base64 encoding of file contents.
 ### License
-#### This project is licensed under the MIT License. See the LICENSE file for more information.
+* This project is licensed under the MIT License. See the LICENSE file for more information.
 
 
 
