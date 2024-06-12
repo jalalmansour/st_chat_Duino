@@ -15,7 +15,9 @@ pip install streamlit-Duino
 ```sh
 import streamlit as st
 from st_duino import st_duino
+```
 
+```
 def main():
     st.write("## Example")
     value = st_duino()
