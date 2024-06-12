@@ -1,1 +1,16 @@
+name: st_duino_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9  # Specify the Python version you are using
+  - streamlit
+  - pillow  # For PIL
+  - pypdf
+  - pymupdf  # For fitz
+  - pandas
+  - openpyxl  # For reading Excel files
+  - pip
+  - pip:
+      - streamlit-components
 
