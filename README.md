@@ -103,7 +103,7 @@ if value:
 # Explanation:
  This README file provides essential information for users of the streamlit-Duino component, guiding them through installation, usage, and contribution. Here's a breakdown of the key sections: 
 
-  Installation: This section clearly outlines the installation process using the pip install command, making it effortless for users to get started. #
+  Installation: This section clearly outlines the installation process using the pip install command, making it effortless for users to get started. 
 
  Usage: The "Usage" section offers a practical example of how to import and utilize the st_duino function within a Streamlit application, providing a clear and concise guide for integration. 
 
